@@ -162,66 +162,6 @@ nav ul li a{
 }
 
 /*HERO SECTION*/
-#hero {
-    background: linear-gradient(135deg, var(--primaryIconColor), var(--thirdBackgroundColor));
-    color: var(--primaryTextColor);
-    padding: 4rem 2rem;
-    border-radius: 20px;
-    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
-    text-align: center;
-    position: relative;
-    overflow: hidden;
-}
-
-#hero::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: rgba(255, 255, 255, 0.1);
-    z-index: 1;
-    pointer-events: none;
-    mix-blend-mode: overlay;
-}
-
-#hero h1 {
-    font-size: 3rem;
-    color: var(--primaryBackgroundColor);
-    z-index: 2;
-    position: relative;
-}
-
-#hero p {
-    font-size: 1.2rem;
-    margin: 1.5rem 0;
-    color: var(--secondaryTextColor);
-    z-index: 2;
-    position: relative;
-}
-
-#hero .cta-button {
-    display: inline-block;
-    padding: 1rem 2rem;
-    margin-top: 1.5rem;
-    background: var(--primaryIconColorHover);
-    color: #fff;
-    font-weight: bold;
-    text-transform: uppercase;
-    border-radius: 5px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
-    transition: all 0.3s ease-in-out;
-    z-index: 2;
-    position: relative;
-}
-
-#hero .cta-button:hover {
-    background: #6a61d9;
-    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
-    transform: translateY(-3px);
-}
-/*  */
 
 #hero{
     height: 600px;
